@@ -1,0 +1,18 @@
+<ZeeInstrument>
+	<instrument-properties>
+		<graphic texture="img/freqshift.png" set="moog" fontsize="8" fontfamily="swiss" fontstyle="normal" fontweight="bold" fontcolor="#FFFFFF">
+			<scale>32</scale>
+		</graphic>
+		<instrument>1</instrument>
+		<csound-file>csd/freqshift.csd</csound-file>
+	</instrument-properties>
+	<element-list>
+		<widget type="knob" label="Pitch">
+			<pos>560,32</pos>
+			<span>2,2</span>
+			<values>0,0,40</values>
+			<csound_instrument channel="fs_pitch"/>
+		</widget>
+
+	</element-list>
+</ZeeInstrument>

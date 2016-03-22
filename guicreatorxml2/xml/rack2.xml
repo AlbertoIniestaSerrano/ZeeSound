@@ -1,0 +1,6 @@
+<ZeeRack orientation="V">
+
+	<instrument name="Chorus" file="xml/stereochorus.xml"/>
+	<instrument name="Filter" file="xml/moogfilter.xml"/>
+
+</ZeeRack>

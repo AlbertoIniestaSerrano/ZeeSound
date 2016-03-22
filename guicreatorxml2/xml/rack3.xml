@@ -1,0 +1,6 @@
+<ZeeRack orientation="V">
+	<instrument name="Player" file="xml/player.xml"/>
+	<instrument name="Tube" file="xml/tubewarmth.xml"/>
+	<instrument name="Filter" file="xml/moogfilter.xml"/>
+
+</ZeeRack>

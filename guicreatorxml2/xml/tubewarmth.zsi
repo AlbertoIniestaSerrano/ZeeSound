@@ -1,0 +1,23 @@
+<ZeeInstrument>
+	<instrument-properties>
+		<graphic texture="img/tubewarmth_texture.png" set="moog" fontsize="8" fontfamily="swiss" fontstyle="normal" fontweight="bold" fontcolor="#FFFFFF">
+			<scale>32</scale>
+		</graphic>
+		<instrument>1</instrument>
+		<csound-file>csd/tubewarmth.csd</csound-file>
+	</instrument-properties>
+	<element-list>
+		<widget type="knob" label="Drive">
+			<pos>560,32</pos>
+			<span>2,2</span>
+			<values>1,1,10</values>
+			<csound_instrument channel="tw_drive"/>
+		</widget>
+		<widget type="knob" label="Blend">
+			<pos>640,32</pos>
+			<span>2,2</span>
+			<values>-10,0,10</values>
+			<csound_instrument channel="tw_blend"/>
+		</widget>
+	</element-list>
+</ZeeInstrument>

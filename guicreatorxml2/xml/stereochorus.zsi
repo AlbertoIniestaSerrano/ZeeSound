@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<ZeeInstrument>
+  <instrument-properties>
+    <graphic fontcolor="#80FF00" fontfamily="teletype" fontsize="8" fontstyle="normal" fontweight="bold" set="roland" texture="img/stereochorus.png">
+      <scale>32</scale>
+    </graphic>
+    <csound-file>csd/stereochorus.csd</csound-file>
+  </instrument-properties>
+  <element-list>
+    <widget label="Rate" type="knob">
+      <pos>350,32</pos>
+      <span>2,2</span>
+      <values>1,10,7000</values>
+      <style colour="#000000" orientation=""/>
+      <csound_instrument channel="rate"/>
+    </widget>
+    <widget label="Depth" type="knob">
+      <pos>480,32</pos>
+      <span>2,2</span>
+      <values>1,5,100</values>
+      <style colour="#000000" orientation=""/>
+      <csound_instrument channel="depth"/>
+    </widget>
+    <widget label="Width" type="knob">
+      <pos>560,32</pos>
+      <span>2,2</span>
+      <values>1,10,100</values>
+      <style colour="#000000" orientation=""/>
+      <csound_instrument channel="width"/>
+    </widget>
+    <widget label="Level" type="knob">
+      <pos>640,32</pos>
+      <span>2,2</span>
+      <values>1,85,100</values>
+      <style colour="#000000" orientation=""/>
+      <csound_instrument channel="level"/>
+    </widget>
+  </element-list>
+</ZeeInstrument>

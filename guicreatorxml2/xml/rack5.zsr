@@ -1,0 +1,6 @@
+<ZeeRack orientation="V">
+	<instrument name="Player" file="xml/player.zsi"/>
+	<instrument name="Filter" file="xml/moogfilter.zsi"/>
+	<instrument name="Tube" file="xml/ensemblechorus.zsi"/>
+
+</ZeeRack>
